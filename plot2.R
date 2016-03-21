@@ -4,11 +4,6 @@
 
 # Week 1 - Assignment for Peer Review - Plot 2
 
-# check / set working directory
-rm(list=ls())
-getwd()
-setwd("C:/Users/SV Tech Holdings/Documents/GitHub/ExData_Plotting1")
-
 #read data from text file
 url <- "household_power_consumption.txt"
 Data <- read.table(url, header=TRUE, sep=";", stringsAsFactors=FALSE, dec=".")
